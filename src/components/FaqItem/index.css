@@ -1,0 +1,36 @@
+.card-container {
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  padding: 13px;
+}
+
+.ques-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.question-title {
+  color: #52606d;
+  font-size: 30px;
+}
+
+.plus-minus-btn {
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  border: none;
+}
+
+.horizontal-line {
+  color: #d7dae6;
+}
+
+.answer-text{
+  font-size: 24px;
+  color: #9aa5b1;
+  font-family: "Roboto";
+
+}

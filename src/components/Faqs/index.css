@@ -1,0 +1,38 @@
+.bg-container {
+  background-color: #f1f5f8;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.faq-app-container {
+  height: 80%;
+  width: 80%;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 10px;
+  border-width: 0px;
+}
+
+.faq-main-heading {
+  font-size: 28px;
+  color: #cb8805;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+  .faq-main-heading {
+    font-size: 48px;
+  }
+}
+
+.faq-ul-list {
+  list-style-type: none;
+  width: 80%;
+}
